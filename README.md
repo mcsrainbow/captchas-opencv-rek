@@ -1,2 +1,9 @@
-# captchas_opencv_rek
-A simple CAPTCHAs OpenCV recognizer
+#### Outputs
+
+```
+$ python captchas_rek.py
+INFO: Cutting images...
+INFO: Training model...
+INFO: Recognizing images in directory ./imgs/test...
+INFO: See results in ./results.csv
+```
