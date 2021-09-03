@@ -15,7 +15,7 @@ def fix_img(filepath):
     # image binarization, the default threshold is 127
     ret, im_inv = cv2.threshold(im_gray,127,255,cv2.THRESH_BINARY_INV)
     
-    # image denoising using the gaussian blur and 
+    # image denoising using the gaussian blur 
     kernel = 1/16*np.array([[1,2,1], [2,4,2], [1,2,1]])
     im_blur = cv2.filter2D(im_inv,-1,kernel)
     
